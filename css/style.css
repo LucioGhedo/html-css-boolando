@@ -162,3 +162,43 @@ ul {
     left: 1360px;
     bottom: 0;
 }
+.col-container{
+    position: relative;
+    height: 100%;
+}
+.cuore {
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+.sconto {
+    background-color: red;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 700;
+}
+.sos {
+    background-color: green;
+    position: absolute;
+    bottom: 20px;
+    left: 63px;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 700;
+}
+.sos-left {
+    background-color: green;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 700;
+}
