@@ -1,0 +1,49 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+i {
+    color: white;
+}
+/* Header */
+.container {
+    height: 80px;
+    background-color: #ff6900;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+/* LISTA HEADER */
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+/* LOGO */
+.logo {
+    width: 150px;
+}
+
+/* MAIN */
+.main-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.col {
+    width: calc(75% / 3);
+    padding: 25px;
+}
